@@ -1,9 +1,10 @@
 function produceDrivingRange(range) { 
   return function(startB, endB) { 
     let actualStartB = parseInt(startB);
-    let actualRange = Math.abs(startB - endB);
+    let actualEndB = parseInt(endB);
+    let actualRange = Math.abs(actualStartB - actualEndB);
     let diff = Math.abs(range - actualRange); 
-    return actualStartB;
+    
     
     if (range > actualRange) { 
     return actualRange; 
