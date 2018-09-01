@@ -13,3 +13,11 @@ function produceDrivingRange(range) {
   }
   }
 } 
+
+function TipCalculator(percent) { 
+  return function(fare) { 
+    return fare*percent; 
+  } 
+} 
+
+ 
