@@ -7,9 +7,9 @@ function produceDrivingRange(range) {
     
     
     if (range > actualRange) { 
-    return `${diff} blocks out of range`; 
+    return `within range by ${diff}`; 
   } else { 
-    return `within range by ${diff}`;
+    return `${diff} blocks out of range`;
   }
   }
 } 
